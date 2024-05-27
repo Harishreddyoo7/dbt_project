@@ -1,0 +1,34 @@
+# models/schema.yml
+
+version: 2
+
+models:
+  - name: Clients
+    columns:
+      - name: ClientId
+        description: "text"
+      - name: ClientName
+        description: "text"
+      - name: Description
+        description: "text"
+      - name: ClientUri
+        description: "text"
+      - name: FrontChannelLogoutSessionRequired
+        description: "boolean"
+      - name: BackChannelLogoutSessionRequired
+        description: "boolean"
+      - name: Created
+        description: "timestamp"
+      - name: Updated
+        description: "timestamp"
+      - name: LastAccessed
+        description: "timestamp"
+
+  - name: ApiResourceClaim
+    columns:
+      - name: Id
+        description: "The unique identifier for the claim."
+      - name: Type
+        description: "The type of the claim."
+
+

@@ -1,0 +1,5 @@
+Client ID,Client Name,Description,Client URI,Front Channel Logout Session Required,Back Channel Logout Session Required,Created,Updated,LastAccessed
+glams,glams,glams,,True,True,2024-05-08 06:22:17.927692,,
+glams-projectcenter,glams-projectcenter,this client is for project center. this token never expire.,,True,True,2024-05-08 06:22:18.057702,,
+glams_code,glams_authcode,,,True,True,2024-05-08 06:22:18.060115,,
+SAML,,,,True,True,2024-05-08 06:22:18.061754,,
